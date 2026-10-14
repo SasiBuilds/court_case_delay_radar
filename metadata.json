@@ -1,0 +1,6 @@
+{
+  "name": "Case Delay Radar",
+  "description": "AI decision-support tool analyzing court order sheets, tracking adjournment bottlenecks with evidentiary citations, and predicting next-hearing risk in English and Telugu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

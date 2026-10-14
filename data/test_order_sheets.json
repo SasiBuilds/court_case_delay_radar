@@ -1,0 +1,282 @@
+[
+  {
+    "order_no": 101,
+    "date": "2023-01-01",
+    "order_sheet_text": "Case called. Due to sudden declaration of local holiday on account of general municipal elections, court work suspended. Re-listed on 27.01.2023.",
+    "ground_truth_category": "court_side",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 102,
+    "date": "2023-01-21",
+    "order_sheet_text": "Listed for objections to Advocate Commissioner's preliminary spot inspection report. Counsel for Plaintiff filed memo praying for two weeks time to file detailed survey objections. Time granted. Call on 19.03.2023.",
+    "ground_truth_category": "extension_sought",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 103,
+    "date": "2023-02-10",
+    "order_sheet_text": "Case called. Listed for further chief examination of D.W.2 (Village Revenue Officer). Summons served on D.W.2, but witness called absent without any intimation or leave letter. Issue bailable warrant of Rs. 1,000 to D.W.2 through SHO. Call on 02.04.2023.",
+    "ground_truth_category": "witness_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 104,
+    "date": "2023-03-02",
+    "order_sheet_text": "Case called. Plaintiff present in person. Sri [REDACTED], learned counsel for Plaintiff is absent. No representation made when matter called twice. Counsel for Defendant ready. In the interest of justice, adjourned to 12.04.2023.",
+    "ground_truth_category": "lawyer_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 105,
+    "date": "2023-03-22",
+    "order_sheet_text": "Plaintiff absent. Counsel present. Notice sent to Defendant No. 3 not yet returned. Service status awaited from Nazir branch. Steps not taken for publication. Issue fresh summons through Court and RPAD on payment of process. For service report, adjourned to 24.04.2023.",
+    "ground_truth_category": "summons_not_served",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 106,
+    "date": "2023-04-11",
+    "order_sheet_text": "Case called. Listed for marking original registered sale deed dated 14-06-1982. Plaintiff counsel submits document is pending with District Registrar for stamp duty deficit adjudication. Production memo filed. For document production, call on 18.05.2023.",
+    "ground_truth_category": "documents_pending",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 107,
+    "date": "2023-05-01",
+    "order_sheet_text": "Case called. D.W.1 (Defendant) present. Cross-examination of D.W.1 conducted in part. Material admissions extracted regarding northern boundary wall. Further cross-examination scheduled to 07.06.2023.",
+    "ground_truth_category": "productive",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 108,
+    "date": "2023-05-21",
+    "order_sheet_text": "Presiding Officer transferred. Bench vacant. In-charge Court only taking up remand and urgent stay matters. Civil matters adjourned en bloc. Post on 25.06.2023.",
+    "ground_truth_category": "court_side",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 109,
+    "date": "2023-06-10",
+    "order_sheet_text": "Case called out. Both parties present through advocates. Defendant counsel seeks short accommodation to verify survey boundaries and file additional documents. Adjourned as last chance to 05.07.2023.",
+    "ground_truth_category": "extension_sought",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 110,
+    "date": "2023-06-30",
+    "order_sheet_text": "Case called. Listed for further chief examination of D.W.2 (Village Revenue Officer). Summons served on D.W.2, but witness called absent without any intimation or leave letter. Issue bailable warrant of Rs. 1,000 to D.W.2 through SHO. Call on 22.07.2023.",
+    "ground_truth_category": "witness_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 111,
+    "date": "2023-07-20",
+    "order_sheet_text": "Case called out. Junior colleague of Defendant's counsel mentions that senior counsel is held up before the Hon'ble High Court at Amaravati in a part-heard writ appeal. Prays pass-over. Matter taken up at 3:30 PM, senior counsel still unavailable. Adjourned to 11.09.2023.",
+    "ground_truth_category": "lawyer_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 112,
+    "date": "2023-08-09",
+    "order_sheet_text": "Case called. Sri [REDACTED], counsel for Plaintiff. Process memo not filed. No batta paid for issuing summons to newly impleaded legal heirs of Defendant No. 1. Last chance granted to deposit process fee. Call on 10.09.2023.",
+    "ground_truth_category": "summons_not_served",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 113,
+    "date": "2023-08-29",
+    "order_sheet_text": "Case called. Listed for marking original registered sale deed dated 14-06-1982. Plaintiff counsel submits document is pending with District Registrar for stamp duty deficit adjudication. Production memo filed. For document production, call on 29.09.2023.",
+    "ground_truth_category": "documents_pending",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 114,
+    "date": "2023-09-18",
+    "order_sheet_text": "Case called. Advocate Commissioner Sri M. Venkat Rao present and filed spot inspection report along with field measurement sketch and survey photographs. Report taken on file. Marked as Ex.C-1 and C-2. For filing objections if any by parties, call on 13.11.2023.",
+    "ground_truth_category": "productive",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 115,
+    "date": "2023-10-08",
+    "order_sheet_text": "Court sits late due to administrative inspection by Hon'ble Principal District Judge. Time not reached for hearing civil board. Roll adjourned to 27.11.2023.",
+    "ground_truth_category": "court_side",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 116,
+    "date": "2023-10-28",
+    "order_sheet_text": "Listed for objections to Advocate Commissioner's preliminary spot inspection report. Counsel for Plaintiff filed memo praying for two weeks time to file detailed survey objections. Time granted. Call on 26.11.2023.",
+    "ground_truth_category": "extension_sought",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 117,
+    "date": "2023-11-17",
+    "order_sheet_text": "Case listed for cross-examination of P.W.1. Plaintiff Ramaiah absent. Learned counsel filed memo stating witness is suffering from severe arthritis and unable to travel from village. Defendant counsel ready with brief. For cross of PW1 conditionally, adjourned to 06.01.2024.",
+    "ground_truth_category": "witness_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 118,
+    "date": "2023-12-07",
+    "order_sheet_text": "Case called out. Junior colleague of Defendant's counsel mentions that senior counsel is held up before the Hon'ble High Court at Amaravati in a part-heard writ appeal. Prays pass-over. Matter taken up at 3:30 PM, senior counsel still unavailable. Adjourned to 31.12.2023.",
+    "ground_truth_category": "lawyer_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 119,
+    "date": "2023-12-27",
+    "order_sheet_text": "Plaintiff absent. Counsel present. Notice sent to Defendant No. 3 not yet returned. Service status awaited from Nazir branch. Steps not taken for publication. Issue fresh summons through Court and RPAD on payment of process. For service report, adjourned to 24.01.2024.",
+    "ground_truth_category": "summons_not_served",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 120,
+    "date": "2024-01-16",
+    "order_sheet_text": "Case called. Both counsel present. Translation of Telugu land partition deed (Palu-pampu Patram) into English not yet submitted into record. Registry raised scrutiny objection. For filing typed translation copy, adjourned to 02.03.2024.",
+    "ground_truth_category": "documents_pending",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 121,
+    "date": "2024-02-05",
+    "order_sheet_text": "Case called. Both sides present. Pleadings perused. Issues framed under Order XIV Rule 1 CPC regarding title, adverse possession, and boundary demarcation. List of documents verified. For Plaintiff evidence, adjourned to 29.03.2024.",
+    "ground_truth_category": "productive",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 122,
+    "date": "2024-02-25",
+    "order_sheet_text": "Case called out. Advocates are abstaining from court work pursuant to Bar Association resolution regarding local bifurcation issue. No judicial work transacted. Reposted to 19.03.2024.",
+    "ground_truth_category": "court_side",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 123,
+    "date": "2024-03-16",
+    "order_sheet_text": "Case called. Counsel for Defendant No. 1 filed memo seeking adjournment of three weeks for filing Written Statement and counter to interim injunction application. Plaintiff counsel vehemently opposes delay citing status quo violation. As a last opportunity on payment of costs of Rs. 300 to DLSA, adjourned to 05.05.2024.",
+    "ground_truth_category": "extension_sought",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 124,
+    "date": "2024-04-05",
+    "order_sheet_text": "Case called. Listed for further chief examination of D.W.2 (Village Revenue Officer). Summons served on D.W.2, but witness called absent without any intimation or leave letter. Issue bailable warrant of Rs. 1,000 to D.W.2 through SHO. Call on 23.05.2024.",
+    "ground_truth_category": "witness_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 125,
+    "date": "2024-04-25",
+    "order_sheet_text": "Case called out. Junior colleague of Defendant's counsel mentions that senior counsel is held up before the Hon'ble High Court at Amaravati in a part-heard writ appeal. Prays pass-over. Matter taken up at 3:30 PM, senior counsel still unavailable. Adjourned to 29.05.2024.",
+    "ground_truth_category": "lawyer_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 126,
+    "date": "2024-05-15",
+    "order_sheet_text": "Case called. Plaintiff present with Sri K. Ramaiah's counsel. Summons sent to Defendant No. 2 returned unserved with postal endorsement 'addressee not found / left without intimation'. Plaintiff directed to take fresh steps and pay batta along with correct address within seven days. Call on 11.06.2024.",
+    "ground_truth_category": "summons_not_served",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 127,
+    "date": "2024-06-04",
+    "order_sheet_text": "Case called. Listed for marking original registered sale deed dated 14-06-1982. Plaintiff counsel submits document is pending with District Registrar for stamp duty deficit adjudication. Production memo filed. For document production, call on 08.07.2024.",
+    "ground_truth_category": "documents_pending",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 128,
+    "date": "2024-06-24",
+    "order_sheet_text": "Case called. Both parties and respective counsel present. Arguments of Sri [REDACTED], learned counsel for Plaintiff heard extensively on Ex.A-1 to A-9 and question of limitation. For defense counsel arguments, adjourned to 17.08.2024.",
+    "ground_truth_category": "productive",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 129,
+    "date": "2024-07-14",
+    "order_sheet_text": "Case called out. Advocates are abstaining from court work pursuant to Bar Association resolution regarding local bifurcation issue. No judicial work transacted. Reposted to 22.08.2024.",
+    "ground_truth_category": "court_side",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 130,
+    "date": "2024-08-03",
+    "order_sheet_text": "Listed for objections to Advocate Commissioner's preliminary spot inspection report. Counsel for Plaintiff filed memo praying for two weeks time to file detailed survey objections. Time granted. Call on 08.09.2024.",
+    "ground_truth_category": "extension_sought",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 131,
+    "date": "2024-08-23",
+    "order_sheet_text": "Plaintiff witness P.W.2 (Surveyor) not in attendance. Memo filed stating witness had family emergency. Cross-examination deferred. Defendant counsel complains of repeated delay. Adjourned as final chance to 20.10.2024.",
+    "ground_truth_category": "witness_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 132,
+    "date": "2024-09-12",
+    "order_sheet_text": "Case called. Plaintiff present in person. Sri [REDACTED], learned counsel for Plaintiff is absent. No representation made when matter called twice. Counsel for Defendant ready. In the interest of justice, adjourned to 01.11.2024.",
+    "ground_truth_category": "lawyer_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 133,
+    "date": "2024-10-02",
+    "order_sheet_text": "Summons returned with endorsement that door was locked on multiple visits. Plaintiff counsel seeks permission for substituted service by affixture at the disputed survey plot No. 74/B. Permitted on deposit of charges. Post on 25.10.2024.",
+    "ground_truth_category": "summons_not_served",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 134,
+    "date": "2024-10-22",
+    "order_sheet_text": "Case called. Listed for marking original registered sale deed dated 14-06-1982. Plaintiff counsel submits document is pending with District Registrar for stamp duty deficit adjudication. Production memo filed. For document production, call on 15.12.2024.",
+    "ground_truth_category": "documents_pending",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 135,
+    "date": "2024-11-11",
+    "order_sheet_text": "Case called. Advocate Commissioner Sri M. Venkat Rao present and filed spot inspection report along with field measurement sketch and survey photographs. Report taken on file. Marked as Ex.C-1 and C-2. For filing objections if any by parties, call on 26.12.2024.",
+    "ground_truth_category": "productive",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 136,
+    "date": "2024-12-01",
+    "order_sheet_text": "Case called. Presiding Officer is on casual leave. All matters posted for today stand adjourned en bloc as per official bench notification. Call on 28.12.2024.",
+    "ground_truth_category": "court_side",
+    "is_avoidable_by_litigant": false
+  },
+  {
+    "order_no": 137,
+    "date": "2024-12-21",
+    "order_sheet_text": "Listed for objections to Advocate Commissioner's preliminary spot inspection report. Counsel for Plaintiff filed memo praying for two weeks time to file detailed survey objections. Time granted. Call on 28.01.2025.",
+    "ground_truth_category": "extension_sought",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 138,
+    "date": "2025-01-10",
+    "order_sheet_text": "Plaintiff witness P.W.2 (Surveyor) not in attendance. Memo filed stating witness had family emergency. Cross-examination deferred. Defendant counsel complains of repeated delay. Adjourned as final chance to 05.03.2025.",
+    "ground_truth_category": "witness_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 139,
+    "date": "2025-01-30",
+    "order_sheet_text": "Case called. Plaintiff present in person. Sri [REDACTED], learned counsel for Plaintiff is absent. No representation made when matter called twice. Counsel for Defendant ready. In the interest of justice, adjourned to 23.03.2025.",
+    "ground_truth_category": "lawyer_absent",
+    "is_avoidable_by_litigant": true
+  },
+  {
+    "order_no": 140,
+    "date": "2025-02-19",
+    "order_sheet_text": "Summons returned with endorsement that door was locked on multiple visits. Plaintiff counsel seeks permission for substituted service by affixture at the disputed survey plot No. 74/B. Permitted on deposit of charges. Post on 20.04.2025.",
+    "ground_truth_category": "summons_not_served",
+    "is_avoidable_by_litigant": true
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "evaluation_timestamp": "2026-10-14T08:34:33.536615Z",
+  "dataset_name": "Indian Subordinate Court Order Sheets (Synthetic Ground Truth)",
+  "test_set_size": 40,
+  "model_used": "models/gemini-3.8-flash",
+  "is_live_api": true,
+  "metrics": {
+    "reason_classification": {
+      "single_prompt_baseline_accuracy_pct": 2.5,
+      "full_pipeline_accuracy_pct": 90.0,
+      "absolute_gain_pct": 87.5
+    },
+    "adjournment_risk_prediction": {
+      "frequency_baseline_accuracy_pct": 83.7,
+      "pipeline_predictor_accuracy_pct": 83.7,
+      "absolute_gain_pct": 0.0
+    }
+  },
+  "sample_verifications": [
+    {
+      "order_no": 101,
+      "ground_truth": "court_side",
+      "predicted": "court_side",
+      "correct": true,
+      "supporting_snippet": "en bloc",
+      "confidence": 0.92
+    },
+    {
+      "order_no": 102,
+      "ground_truth": "extension_sought",
+      "predicted": "extension_sought",
+      "correct": true,
+      "supporting_snippet": "praying for two weeks time to file detailed survey objections",
+      "confidence": 0.88
+    },
+    {
+      "order_no": 103,
+      "ground_truth": "witness_absent",
+      "predicted": "summons_not_served",
+      "correct": false,
+      "supporting_snippet": "summons",
+      "confidence": 0.94
+    },
+    {
+      "order_no": 104,
+      "ground_truth": "lawyer_absent",
+      "predicted": "lawyer_absent",
+      "correct": true,
+      "supporting_snippet": "learned counsel for Plaintiff is absent",
+      "confidence": 0.91
+    },
+    {
+      "order_no": 105,
+      "ground_truth": "summons_not_served",
+      "predicted": "summons_not_served",
+      "correct": true,
+      "supporting_snippet": "summons",
+      "confidence": 0.94
+    },
+    {
+      "order_no": 106,
+      "ground_truth": "documents_pending",
+      "predicted": "documents_pending",
+      "correct": true,
+      "supporting_snippet": "document is pending with District Registrar",
+      "confidence": 0.9
+    },
+    {
+      "order_no": 107,
+      "ground_truth": "productive",
+      "predicted": "unclear",
+      "correct": false,
+      "supporting_snippet": "Case called. D.W.1 (Defendant) present. Cross-examination of",
+      "confidence": 0.6
+    },
+    {
+      "order_no": 108,
+      "ground_truth": "court_side",
+      "predicted": "court_side",
+      "correct": true,
+      "supporting_snippet": "Bench vacant",
+      "confidence": 0.92
+    }
+  ]
+}

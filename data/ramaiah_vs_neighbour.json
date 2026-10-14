@@ -1,0 +1,619 @@
+{
+  "case_metadata": {
+    "title": "K. Ramaiah vs M. Venkat Reddy & Ors (Neighbour)",
+    "case_number": "O.S. No. 142 of 2015",
+    "court": "Court of Junior Civil Judge, Sangareddy",
+    "suit_type": "Original Suit for Declaration of Title, Perpetual Injunction & Boundary Demarcation",
+    "total_listings": 60,
+    "start_date": "2015-02-10",
+    "end_date": "2024-02-09",
+    "total_duration_days": 3286,
+    "productive_hearings": 9,
+    "friction_days": 2828,
+    "avoidable_friction_days": 2051,
+    "is_synthetic": true,
+    "label": "Synthetic example (O.S. 142/2015 Land Boundary Dispute)"
+  },
+  "hearings": [
+    {
+      "order_no": 1,
+      "date": "2015-02-10",
+      "order_sheet_text": "Case called. Plaintiff present with Sri K. Ramaiah's counsel. Summons sent to Defendant No. 2 returned unserved with postal endorsement 'addressee not found / left without intimation'. Plaintiff directed to take fresh steps and pay batta along with correct address within seven days. Call on 29.03.2015.",
+      "days_to_next_hearing": 47,
+      "ground_truth_category": "summons_not_served",
+      "ground_truth_reason": "Summons unserved / batta process fee not paid",
+      "ground_truth_snippet": "Summons sent to Defendant No. 2 returned unserved",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 2,
+      "date": "2015-03-29",
+      "order_sheet_text": "Plaintiff absent. Counsel present. Notice sent to Defendant No. 3 not yet returned. Service status awaited from Nazir branch. Steps not taken for publication. Issue fresh summons through Court and RPAD on payment of process. For service report, adjourned to 09.05.2015.",
+      "days_to_next_hearing": 41,
+      "ground_truth_category": "summons_not_served",
+      "ground_truth_reason": "Summons unserved / batta process fee not paid",
+      "ground_truth_snippet": "Notice sent to Defendant No. 3 not yet returned",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 3,
+      "date": "2015-05-09",
+      "order_sheet_text": "Case called. Counsel for Defendant No. 1 filed memo seeking adjournment of three weeks for filing Written Statement and counter to interim injunction application. Plaintiff counsel vehemently opposes delay citing status quo violation. As a last opportunity on payment of costs of Rs. 300 to DLSA, adjourned to 29.06.2015.",
+      "days_to_next_hearing": 51,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "memo seeking adjournment of three weeks for filing Written Statement",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 4,
+      "date": "2015-06-29",
+      "order_sheet_text": "Summons returned with endorsement that door was locked on multiple visits. Plaintiff counsel seeks permission for substituted service by affixture at the disputed survey plot No. 74/B. Permitted on deposit of charges. Post on 24.08.2015.",
+      "days_to_next_hearing": 56,
+      "ground_truth_category": "summons_not_served",
+      "ground_truth_reason": "Summons unserved / batta process fee not paid",
+      "ground_truth_snippet": "Summons returned with endorsement that door was locked",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 5,
+      "date": "2015-08-24",
+      "order_sheet_text": "Case called out. Both parties present through advocates. Defendant counsel seeks short accommodation to verify survey boundaries and file additional documents. Adjourned as last chance to 10.10.2015.",
+      "days_to_next_hearing": 47,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "seeks short accommodation to verify survey boundaries",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 6,
+      "date": "2015-10-10",
+      "order_sheet_text": "Case called. Neither Plaintiff nor his counsel present. No memo filed. Matter passed over till 2:15 PM. At 2:15 PM, junior counsel appeared and reported inability to proceed today. Adjourned to 12.11.2015.",
+      "days_to_next_hearing": 33,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "junior counsel appeared and reported inability to proceed today",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 7,
+      "date": "2015-11-12",
+      "order_sheet_text": "Case called out. Both parties present through advocates. Defendant counsel seeks short accommodation to verify survey boundaries and file additional documents. Adjourned as last chance to 20.12.2015.",
+      "days_to_next_hearing": 38,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "seeks short accommodation to verify survey boundaries",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 8,
+      "date": "2015-12-20",
+      "order_sheet_text": "Matter posted for Advocate Commissioner report. Warrant of commission returned unexecuted by Court Commissioner reporting that Mandal Surveyor did not attend on the fixed date with field measurement book (FMB). Commissioner re-entrusted with commission work. Report by 13.03.2016.",
+      "days_to_next_hearing": 84,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "Warrant of commission returned unexecuted by Court Commissioner",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 9,
+      "date": "2016-03-13",
+      "order_sheet_text": "Case called. Both sides present. Pleadings perused. Issues framed under Order XIV Rule 1 CPC regarding title, adverse possession, and boundary demarcation. List of documents verified. For Plaintiff evidence, adjourned to 22.04.2016.",
+      "days_to_next_hearing": 40,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Issues framed under Order XIV Rule 1 CPC",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 10,
+      "date": "2016-04-22",
+      "order_sheet_text": "Case called out. Both parties present through advocates. Defendant counsel seeks short accommodation to verify survey boundaries and file additional documents. Adjourned as last chance to 23.06.2016.",
+      "days_to_next_hearing": 62,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "seeks short accommodation to verify survey boundaries",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 11,
+      "date": "2016-06-23",
+      "order_sheet_text": "Case called out. Advocates are abstaining from court work pursuant to Bar Association resolution regarding local bifurcation issue. No judicial work transacted. Reposted to 15.08.2016.",
+      "days_to_next_hearing": 53,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Advocates are abstaining from court work pursuant to Bar Association resolution",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 12,
+      "date": "2016-08-15",
+      "order_sheet_text": "Case called. Both counsel present. Translation of Telugu land partition deed (Palu-pampu Patram) into English not yet submitted into record. Registry raised scrutiny objection. For filing typed translation copy, adjourned to 30.09.2016.",
+      "days_to_next_hearing": 46,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "Translation of Telugu land partition deed into English not yet submitted",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 13,
+      "date": "2016-09-30",
+      "order_sheet_text": "Case called. Plaintiff present in person. Sri [REDACTED], learned counsel for Plaintiff is absent. No representation made when matter called twice. Counsel for Defendant ready. In the interest of justice, adjourned to 31.10.2016.",
+      "days_to_next_hearing": 31,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "learned counsel for Plaintiff is absent. No representation",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 14,
+      "date": "2016-10-31",
+      "order_sheet_text": "Case called. Listed for further chief examination of D.W.2 (Village Revenue Officer). Summons served on D.W.2, but witness called absent without any intimation or leave letter. Issue bailable warrant of Rs. 1,000 to D.W.2 through SHO. Call on 19.12.2016.",
+      "days_to_next_hearing": 49,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "D.W.2 called absent without any intimation or leave letter",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 15,
+      "date": "2016-12-19",
+      "order_sheet_text": "Case called. Advocate Commissioner Sri M. Venkat Rao present and filed spot inspection report along with field measurement sketch and survey photographs. Report taken on file. Marked as Ex.C-1 and C-2. For filing objections if any by parties, call on 07.02.2017.",
+      "days_to_next_hearing": 50,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Advocate Commissioner Sri M. Venkat Rao present and filed spot inspection report",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 16,
+      "date": "2017-02-07",
+      "order_sheet_text": "Case called out. Junior colleague of Defendant's counsel mentions that senior counsel is held up before the Hon'ble High Court at Amaravati in a part-heard writ appeal. Prays pass-over. Matter taken up at 3:30 PM, senior counsel still unavailable. Adjourned to 25.03.2017.",
+      "days_to_next_hearing": 46,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "senior counsel is held up before the Hon'ble High Court",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 17,
+      "date": "2017-03-25",
+      "order_sheet_text": "Case called. Listed for further chief examination of D.W.2 (Village Revenue Officer). Summons served on D.W.2, but witness called absent without any intimation or leave letter. Issue bailable warrant of Rs. 1,000 to D.W.2 through SHO. Call on 29.04.2017.",
+      "days_to_next_hearing": 35,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "D.W.2 called absent without any intimation or leave letter",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 18,
+      "date": "2017-04-29",
+      "order_sheet_text": "Presiding Officer transferred. Bench vacant. In-charge Court only taking up remand and urgent stay matters. Civil matters adjourned en bloc. Post on 28.07.2017.",
+      "days_to_next_hearing": 90,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Presiding Officer transferred. Bench vacant",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 19,
+      "date": "2017-07-28",
+      "order_sheet_text": "Case called. Listed for defense evidence. Defendant D.W.1 called absent. Medical certificate produced showing viral infection. One last opportunity granted for D.W.1 evidence. Adjourned to 13.09.2017.",
+      "days_to_next_hearing": 47,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "Medical certificate produced showing viral infection",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 20,
+      "date": "2017-09-13",
+      "order_sheet_text": "Case called out. Both parties present through advocates. Defendant counsel seeks short accommodation to verify survey boundaries and file additional documents. Adjourned as last chance to 13.11.2017.",
+      "days_to_next_hearing": 61,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "seeks short accommodation to verify survey boundaries",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 21,
+      "date": "2017-11-13",
+      "order_sheet_text": "Case called. Both parties and respective counsel present. Arguments of Sri [REDACTED], learned counsel for Plaintiff heard extensively on Ex.A-1 to A-9 and question of limitation. For defense counsel arguments, adjourned to 02.01.2018.",
+      "days_to_next_hearing": 50,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Arguments of Sri [REDACTED], learned counsel for Plaintiff heard extensively",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 22,
+      "date": "2018-01-02",
+      "order_sheet_text": "Case called. Listed for further chief examination of D.W.2 (Village Revenue Officer). Summons served on D.W.2, but witness called absent without any intimation or leave letter. Issue bailable warrant of Rs. 1,000 to D.W.2 through SHO. Call on 09.03.2018.",
+      "days_to_next_hearing": 66,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "D.W.2 called absent without any intimation or leave letter",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 23,
+      "date": "2018-03-09",
+      "order_sheet_text": "Court sits late due to administrative inspection by Hon'ble Principal District Judge. Time not reached for hearing civil board. Roll adjourned to 10.06.2018.",
+      "days_to_next_hearing": 93,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Court sits late due to administrative inspection",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 24,
+      "date": "2018-06-10",
+      "order_sheet_text": "Case called. Plaintiff present in person. Sri [REDACTED], learned counsel for Plaintiff is absent. No representation made when matter called twice. Counsel for Defendant ready. In the interest of justice, adjourned to 17.07.2018.",
+      "days_to_next_hearing": 37,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "learned counsel for Plaintiff is absent. No representation",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 25,
+      "date": "2018-07-17",
+      "order_sheet_text": "Matter posted for Advocate Commissioner report. Warrant of commission returned unexecuted by Court Commissioner reporting that Mandal Surveyor did not attend on the fixed date with field measurement book (FMB). Commissioner re-entrusted with commission work. Report by 31.08.2018.",
+      "days_to_next_hearing": 45,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "Warrant of commission returned unexecuted by Court Commissioner",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 26,
+      "date": "2018-08-31",
+      "order_sheet_text": "Case called out. Both sides present. Heard final arguments of learned counsel for Defendants. Written notes of argument submitted along with Supreme Court citations on agricultural easement rights. For judgment / orders, post to 15.10.2018.",
+      "days_to_next_hearing": 45,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Heard final arguments of learned counsel for Defendants",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 27,
+      "date": "2018-10-15",
+      "order_sheet_text": "Case called. Counsel for Defendant No. 1 filed memo seeking adjournment of three weeks for filing Written Statement and counter to interim injunction application. Plaintiff counsel vehemently opposes delay citing status quo violation. As a last opportunity on payment of costs of Rs. 300 to DLSA, adjourned to 16.12.2018.",
+      "days_to_next_hearing": 62,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "memo seeking adjournment of three weeks for filing Written Statement",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 28,
+      "date": "2018-12-16",
+      "order_sheet_text": "Case called. Both counsel present. Translation of Telugu land partition deed (Palu-pampu Patram) into English not yet submitted into record. Registry raised scrutiny objection. For filing typed translation copy, adjourned to 23.02.2019.",
+      "days_to_next_hearing": 69,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "Translation of Telugu land partition deed into English not yet submitted",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 29,
+      "date": "2019-02-23",
+      "order_sheet_text": "Presiding Officer transferred. Bench vacant. In-charge Court only taking up remand and urgent stay matters. Civil matters adjourned en bloc. Post on 04.05.2019.",
+      "days_to_next_hearing": 70,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Presiding Officer transferred. Bench vacant",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 30,
+      "date": "2019-05-04",
+      "order_sheet_text": "Both parties present. Learned counsel for Defendant filed sick memo stating acute fever and indisposition. Opposed by opposite counsel. Adjournment granted on humanitarian grounds. Call on 06.06.2019.",
+      "days_to_next_hearing": 33,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "learned counsel for Defendant filed sick memo stating acute fever",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 31,
+      "date": "2019-06-06",
+      "order_sheet_text": "Case called. Listed for marking original registered sale deed dated 14-06-1982. Plaintiff counsel submits document is pending with District Registrar for stamp duty deficit adjudication. Production memo filed. For document production, call on 05.08.2019.",
+      "days_to_next_hearing": 60,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "document is pending with District Registrar for stamp duty deficit",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 32,
+      "date": "2019-08-05",
+      "order_sheet_text": "Matter posted for Advocate Commissioner report. Warrant of commission returned unexecuted by Court Commissioner reporting that Mandal Surveyor did not attend on the fixed date with field measurement book (FMB). Commissioner re-entrusted with commission work. Report by 13.10.2019.",
+      "days_to_next_hearing": 69,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "Warrant of commission returned unexecuted by Court Commissioner",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 33,
+      "date": "2019-10-13",
+      "order_sheet_text": "Case called. Advocate Commissioner Sri M. Venkat Rao present and filed spot inspection report along with field measurement sketch and survey photographs. Report taken on file. Marked as Ex.C-1 and C-2. For filing objections if any by parties, call on 23.11.2019.",
+      "days_to_next_hearing": 41,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Advocate Commissioner Sri M. Venkat Rao present and filed spot inspection report",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 34,
+      "date": "2019-11-23",
+      "order_sheet_text": "Case called out. Both parties present through advocates. Defendant counsel seeks short accommodation to verify survey boundaries and file additional documents. Adjourned as last chance to 30.12.2019.",
+      "days_to_next_hearing": 37,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "seeks short accommodation to verify survey boundaries",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 35,
+      "date": "2019-12-30",
+      "order_sheet_text": "Case called out. Advocates are abstaining from court work pursuant to Bar Association resolution regarding local bifurcation issue. No judicial work transacted. Reposted to 17.03.2020.",
+      "days_to_next_hearing": 78,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Advocates are abstaining from court work pursuant to Bar Association resolution",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 36,
+      "date": "2020-03-17",
+      "order_sheet_text": "Listed for objections to Advocate Commissioner's preliminary spot inspection report. Counsel for Plaintiff filed memo praying for two weeks time to file detailed survey objections. Time granted. Call on 24.04.2020.",
+      "days_to_next_hearing": 38,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "praying for two weeks time to file detailed survey objections",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 37,
+      "date": "2020-04-24",
+      "order_sheet_text": "Case called. Neither Plaintiff nor his counsel present. No memo filed. Matter passed over till 2:15 PM. At 2:15 PM, junior counsel appeared and reported inability to proceed today. Adjourned to 04.06.2020.",
+      "days_to_next_hearing": 41,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "junior counsel appeared and reported inability to proceed today",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 38,
+      "date": "2020-06-04",
+      "order_sheet_text": "Case called. Listed for defense evidence. Defendant D.W.1 called absent. Medical certificate produced showing viral infection. One last opportunity granted for D.W.1 evidence. Adjourned to 02.08.2020.",
+      "days_to_next_hearing": 59,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "Medical certificate produced showing viral infection",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 39,
+      "date": "2020-08-02",
+      "order_sheet_text": "Matter posted for Advocate Commissioner report. Warrant of commission returned unexecuted by Court Commissioner reporting that Mandal Surveyor did not attend on the fixed date with field measurement book (FMB). Commissioner re-entrusted with commission work. Report by 29.10.2020.",
+      "days_to_next_hearing": 88,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "Warrant of commission returned unexecuted by Court Commissioner",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 40,
+      "date": "2020-10-29",
+      "order_sheet_text": "Court sits late due to administrative inspection by Hon'ble Principal District Judge. Time not reached for hearing civil board. Roll adjourned to 06.01.2021.",
+      "days_to_next_hearing": 69,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Court sits late due to administrative inspection",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 41,
+      "date": "2021-01-06",
+      "order_sheet_text": "Case called. Listed for further chief examination of D.W.2 (Village Revenue Officer). Summons served on D.W.2, but witness called absent without any intimation or leave letter. Issue bailable warrant of Rs. 1,000 to D.W.2 through SHO. Call on 11.02.2021.",
+      "days_to_next_hearing": 36,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "D.W.2 called absent without any intimation or leave letter",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 42,
+      "date": "2021-02-11",
+      "order_sheet_text": "Case called out. Junior colleague of Defendant's counsel mentions that senior counsel is held up before the Hon'ble High Court at Amaravati in a part-heard writ appeal. Prays pass-over. Matter taken up at 3:30 PM, senior counsel still unavailable. Adjourned to 06.04.2021.",
+      "days_to_next_hearing": 54,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "senior counsel is held up before the Hon'ble High Court",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 43,
+      "date": "2021-04-06",
+      "order_sheet_text": "Case called. Both parties and respective counsel present. Arguments of Sri [REDACTED], learned counsel for Plaintiff heard extensively on Ex.A-1 to A-9 and question of limitation. For defense counsel arguments, adjourned to 12.06.2021.",
+      "days_to_next_hearing": 67,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Arguments of Sri [REDACTED], learned counsel for Plaintiff heard extensively",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 44,
+      "date": "2021-06-12",
+      "order_sheet_text": "Plaintiff witness P.W.2 (Surveyor) not in attendance. Memo filed stating witness had family emergency. Cross-examination deferred. Defendant counsel complains of repeated delay. Adjourned as final chance to 23.08.2021.",
+      "days_to_next_hearing": 72,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "Plaintiff witness P.W.2 (Surveyor) not in attendance",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 45,
+      "date": "2021-08-23",
+      "order_sheet_text": "Case called. Due to sudden declaration of local holiday on account of general municipal elections, court work suspended. Re-listed on 21.10.2021.",
+      "days_to_next_hearing": 59,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "declaration of local holiday on account of general municipal elections",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 46,
+      "date": "2021-10-21",
+      "order_sheet_text": "Case called. Listed for defense evidence. Defendant D.W.1 called absent. Medical certificate produced showing viral infection. One last opportunity granted for D.W.1 evidence. Adjourned to 21.12.2021.",
+      "days_to_next_hearing": 61,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "Medical certificate produced showing viral infection",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 47,
+      "date": "2021-12-21",
+      "order_sheet_text": "Case called. Neither Plaintiff nor his counsel present. No memo filed. Matter passed over till 2:15 PM. At 2:15 PM, junior counsel appeared and reported inability to proceed today. Adjourned to 21.01.2022.",
+      "days_to_next_hearing": 31,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "junior counsel appeared and reported inability to proceed today",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 48,
+      "date": "2022-01-21",
+      "order_sheet_text": "Case called. Both sides present. Pleadings perused. Issues framed under Order XIV Rule 1 CPC regarding title, adverse possession, and boundary demarcation. List of documents verified. For Plaintiff evidence, adjourned to 04.04.2022.",
+      "days_to_next_hearing": 73,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Issues framed under Order XIV Rule 1 CPC",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 49,
+      "date": "2022-04-04",
+      "order_sheet_text": "Matter listed for filing replication and verification by Plaintiff. Sri Ramaiah's counsel submits that original certified pahani copies are awaited from Tahsildar office, seeks time. Granted. For rejoinder finally, post on 26.05.2022.",
+      "days_to_next_hearing": 52,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "original certified pahani copies are awaited from Tahsildar office, seeks time",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 50,
+      "date": "2022-05-26",
+      "order_sheet_text": "Case called out. Advocates are abstaining from court work pursuant to Bar Association resolution regarding local bifurcation issue. No judicial work transacted. Reposted to 30.08.2022.",
+      "days_to_next_hearing": 96,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Advocates are abstaining from court work pursuant to Bar Association resolution",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 51,
+      "date": "2022-08-30",
+      "order_sheet_text": "Case called. Listed for defense evidence. Defendant D.W.1 called absent. Medical certificate produced showing viral infection. One last opportunity granted for D.W.1 evidence. Adjourned to 29.10.2022.",
+      "days_to_next_hearing": 60,
+      "ground_truth_category": "witness_absent",
+      "ground_truth_reason": "Material witness absent or filed medical memo",
+      "ground_truth_snippet": "Medical certificate produced showing viral infection",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 52,
+      "date": "2022-10-29",
+      "order_sheet_text": "Case called. Listed for marking original registered sale deed dated 14-06-1982. Plaintiff counsel submits document is pending with District Registrar for stamp duty deficit adjudication. Production memo filed. For document production, call on 23.01.2023.",
+      "days_to_next_hearing": 86,
+      "ground_truth_category": "documents_pending",
+      "ground_truth_reason": "Official documents, FMB survey records, or translation pending",
+      "ground_truth_snippet": "document is pending with District Registrar for stamp duty deficit",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 53,
+      "date": "2023-01-23",
+      "order_sheet_text": "Case called. Plaintiff present in person. Sri [REDACTED], learned counsel for Plaintiff is absent. No representation made when matter called twice. Counsel for Defendant ready. In the interest of justice, adjourned to 27.02.2023.",
+      "days_to_next_hearing": 35,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "learned counsel for Plaintiff is absent. No representation",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 54,
+      "date": "2023-02-27",
+      "order_sheet_text": "Case called. Presiding Officer is on casual leave. All matters posted for today stand adjourned en bloc as per official bench notification. Call on 09.06.2023.",
+      "days_to_next_hearing": 102,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Presiding Officer is on casual leave",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 55,
+      "date": "2023-06-09",
+      "order_sheet_text": "Case called. P.W.1 present in box. Cross-examination of P.W.1 conducted in full by learned counsel for Defendant No. 1 and Defendant No. 2 running into 6 folios. P.W.1 discharged. Evidence of P.W.1 closed. For evidence of P.W.2, call on 17.07.2023.",
+      "days_to_next_hearing": 38,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Cross-examination of P.W.1 conducted in full",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 56,
+      "date": "2023-07-17",
+      "order_sheet_text": "Matter listed for filing replication and verification by Plaintiff. Sri Ramaiah's counsel submits that original certified pahani copies are awaited from Tahsildar office, seeks time. Granted. For rejoinder finally, post on 20.08.2023.",
+      "days_to_next_hearing": 34,
+      "ground_truth_category": "extension_sought",
+      "ground_truth_reason": "Time sought for filing written statement, rejoinder, or objections",
+      "ground_truth_snippet": "original certified pahani copies are awaited from Tahsildar office, seeks time",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 57,
+      "date": "2023-08-20",
+      "order_sheet_text": "Case called. Neither Plaintiff nor his counsel present. No memo filed. Matter passed over till 2:15 PM. At 2:15 PM, junior counsel appeared and reported inability to proceed today. Adjourned to 11.10.2023.",
+      "days_to_next_hearing": 52,
+      "ground_truth_category": "lawyer_absent",
+      "ground_truth_reason": "Counsel absent, indisposed, or engaged in superior court",
+      "ground_truth_snippet": "junior counsel appeared and reported inability to proceed today",
+      "is_avoidable_by_litigant": true
+    },
+    {
+      "order_no": 58,
+      "date": "2023-10-11",
+      "order_sheet_text": "Case called. Due to sudden declaration of local holiday on account of general municipal elections, court work suspended. Re-listed on 17.12.2023.",
+      "days_to_next_hearing": 67,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "declaration of local holiday on account of general municipal elections",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 59,
+      "date": "2023-12-17",
+      "order_sheet_text": "Case called. Both parties present with respective advocates. Sri K. Ramaiah (P.W.1) present in box. Chief examination conducted. Ex.A-1 (Registered Sale Deed No. 1922/1984), Ex.A-2 (Pahani extract for fasli 1420), Ex.A-3 to A-7 marked. Cross-examination deferred at request of defense counsel to 09.02.2024.",
+      "days_to_next_hearing": 54,
+      "ground_truth_category": "productive",
+      "ground_truth_reason": "Substantive procedural hearing conducted",
+      "ground_truth_snippet": "Chief examination conducted. Ex.A-1 ... Ex.A-3 to A-7 marked",
+      "is_avoidable_by_litigant": false
+    },
+    {
+      "order_no": 60,
+      "date": "2024-02-09",
+      "order_sheet_text": "Presiding Officer transferred. Bench vacant. In-charge Court only taking up remand and urgent stay matters. Civil matters adjourned en bloc. Post on 25.03.2024.",
+      "days_to_next_hearing": 45,
+      "ground_truth_category": "court_side",
+      "ground_truth_reason": "Judicial bench vacancy, leave, or advocate bar strike",
+      "ground_truth_snippet": "Presiding Officer transferred. Bench vacant",
+      "is_avoidable_by_litigant": false
+    }
+  ]
+}
